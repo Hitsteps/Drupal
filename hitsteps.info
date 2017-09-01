@@ -1,0 +1,6 @@
+name = "hitsteps"
+description = "Hitsteps integration which will track live users activity on website and provide meaningful and detailed insights."
+package = Statistics
+core = 7.x
+version = "1.01"
+configure = admin/settings/hitsteps

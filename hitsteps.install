@@ -1,0 +1,15 @@
+<?php
+/**
+ * @file
+ * Adds Hitsteps javascript tracking code to your site pages.
+ *
+ * Copyright 2015 by ("Hitsteps", http://www.hitsteps.com)
+ */
+
+/**
+ * Implementation of hook_uninstall().
+ */
+function hitsteps_uninstall() {
+  variable_del('hitsteps_code');
+  variable_del('hitsteps_scope');
+}
